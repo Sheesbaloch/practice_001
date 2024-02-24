@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:practice_001/screens/home.dart';
 import 'package:practice_001/widgets/info_bar.dart';
 
 class Location extends StatelessWidget {

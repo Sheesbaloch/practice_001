@@ -9,7 +9,7 @@ class Horizontal_Page_Scroll extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          title: Text('Horizontal Scroll View'),
+          title: const Text('Horizontal Scroll View'),
         ),
         body: ListView.builder(
             scrollDirection: Axis.horizontal,

@@ -20,6 +20,7 @@ class Signup extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               customTextfield(
+                TColor: Colors.transparent,
                 labelName: 'Username',
                 fieldIcon: Icon(
                   Icons.person_2_outlined,
@@ -29,12 +30,14 @@ class Signup extends StatelessWidget {
                 textController: usernameController,
               ),
               customTextfield(
+                TColor: Colors.transparent,
                 labelName: 'Email',
                 fieldIcon: Icon(Icons.email, color: Colors.white),
                 keyboard: TextInputType.emailAddress,
                 textController: emailController,
               ),
               customTextfield(
+                TColor: Colors.transparent,
                 labelName: 'password',
                 fieldIcon: Icon(Icons.lock, color: Colors.white),
                 keyboard: TextInputType.text,

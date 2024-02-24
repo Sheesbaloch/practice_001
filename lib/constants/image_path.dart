@@ -25,4 +25,20 @@ class ImagePaths {
   static String profile8 = 'assets/images/profile8.jpg';
   static String profile9 = 'assets/images/profile9.jpg';
   static String profile10 = 'assets/images/profile10.jpg';
+
+  static String chat = 'assets/images/chat.png';
+  static String connection = 'assets/images/Connection.png';
+  static String dribbble = 'assets/images/Dribbblelogo.png';
+  static String group18 = 'assets/images/group18.png';
+  static String group29 = 'assets/images/Group20.png';
+  static String group22 = 'assets/images/group22.png';
+  static String group23 = 'assets/images/Group23.png';
+  static String group24 = 'assets/images/group24.png';
+  static String group25 = 'assets/images/Group25.png';
+  static String home = 'assets/images/home.png';
+  static String iconfilter = 'assets/images/iconfilter.png';
+  static String iconlocation = 'assets/images/iconlocation.png';
+  static String logogoogle = 'assets/images/logogoogle.png';
+  static String Save1 = 'assets/images/Save-1.png';
+  static String Save = 'assets/images/Save.png';
 }

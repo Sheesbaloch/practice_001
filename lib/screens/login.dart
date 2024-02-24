@@ -14,7 +14,7 @@ class Login extends StatelessWidget {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          Background(),
+          const Background(),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -22,6 +22,7 @@ class Login extends StatelessWidget {
                 labelName: 'Email',
                 fieldIcon: const Icon(Icons.email),
                 keyboard: TextInputType.emailAddress,
+                TColor: Colors.transparent,
                 textController: emailController,
               ),
               customTextfield(
@@ -30,6 +31,7 @@ class Login extends StatelessWidget {
                 keyboard: TextInputType.text,
                 secure: true,
                 textController: passwordController,
+                TColor: Colors.transparent,
               ),
               ElevatedButton(onPressed: () {}, child: Text('Login')),
               const SizedBox(
